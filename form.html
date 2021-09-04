@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
+    <head>
+    <link rel="stylesheet" href="styleform.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
     <body>
         <h1>Auckland Open Registration Form</h1>
+        <main>
         <form action="register">
             <label for="first name">First name</label>
             <input type="text" id="first name" name="first name"/>
@@ -11,32 +16,30 @@
             <br/>
             <label fore="Birthdate">Birthdate</label>
             <input type="date" id="birthdate" name="birthdate">
-        <div>
-            <p>Select match to play</p>
-            <input type="checkbox" id="single" name="single"/>
-            <label for="single">single</label>
-            <input type="checkbox" id="double" name="double"/>
-            <label for="double">double</label> 
-        <div>
-            <p>Audio settings:</p>
-        <div>
-            <input type="range" id="volume" name="volume" min="0" max="11">
-            <label for="volume">Volume</label>
+            <br/>
         </div>
             <br/>
             <label for="phone">Phone</label>
             <input type="tel" id="phone" name="phone">
             <br/>
             <br/>
-        <div>
+       <div>
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="sophie@example.com"/>
             <br/>
             <br/>
-            <label for="password">Password (8 characters minimum):</label>
-            <input type="text" id="password" name="password" minlength="8" maxlength="16" required/>
         </div>
-            <br/>
+        <label for="password">Password (8 characters minimum):</label>
+        <input type="text" id="password" name="password" minlength="8" maxlength="16" required/>
+        <br/>
+        <div>
+            <p>Select match to play</p>
+            <input type="checkbox" id="single" name="single"/>
+            <label for="single">single</label>
+            <input type="checkbox" id="double" name="double"/>
+            <label for="double">double</label> 
+        <br/>
+        <br/>    
         <div>
             <label for="select age group">Select age group</label>
             <select id="age group" name="age group">
@@ -47,7 +50,16 @@
             </select>
         </div>
         <br/>
+        <div>
+            <p>Audio settings:</p>
+        <div>
+            <input type="range" id="volume" name="volume" min="0" max="11">
+            <label for="volume">Volume</label>
+            <br/>
+            <br/>
         <input type="submit" value="Submit">
         </form>
+    </main>
+    <i class="material-icons" style="font-size:60px;color:rgb(92, 127, 156);">cloud</i>
     </body>
 </html>

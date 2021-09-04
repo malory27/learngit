@@ -1,0 +1,37 @@
+
+body {
+  background-color: #87a4b1;
+}
+main {
+  background-color: #68a5c2;
+  border-style: ridge;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+h1 {
+  border: 1px solid rgb(252, 255, 255);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
+  background-color: lightblue;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  color: rgb(73, 72, 72);
+  text-align: center;
+}
+
+p {
+  color: rgb(255, 251, 251)
+}
+label {
+  color: rgb(255, 251, 251)
+}
+p.ridge {border-style: ridge;}
